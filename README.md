@@ -27,4 +27,16 @@ Tip: Babel es un "traductor" de Js Moderno a un Js que sea capaz de ser interpre
 
 ESLIT, es una herramienta que permite detectar errores y nos da alertas para evitar enviar código equivocado.
 
+# Para desinstalar la funcionalidad de create-react-app
 
+```
+npm uninstall -g create-react-app
+```
+
+Actualmente es mejor usar los comandos de npx 
+
+```
+npx create-react-app my-app
+cd my-app
+npm start
+```
